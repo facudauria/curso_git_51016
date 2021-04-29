@@ -1,0 +1,93 @@
+Working Directory (WD) : El lugar de trabajo, la carpeta raiz del proyecto
+
+Stage Area (SA) : Es el lugar temporal donde los screenshots de archivos(blobs) pasan a estar antes de la etapa de confirmacion(commit)
+
+
+
+git init : Inicializa un repositorio en una carpeta oculta llamada .git que es donde va a ir almacenando sus objetos.
+
+git status : Imprime el estado del repositorio en consola.
+
+git add <archivo> : Le da seguimiento a un archivo. Tambien sirve para sacar un screenshot(blob) de un archivo y moverlo al SA
+
+git commit : Confirma todos los cambios del SA y crea un objeto del tipo commit
+
+git config --local user.email ""
+git config --local user.name ""
+
+git log : muestra todos los commits que conforman la rama donde estoy
+
+git log --oneline
+git log --oneline --all 
+
+
+git checkout <id_commit> : Mueve el HEAD a un commit
+
+git checkout <nombre_branch> : Mueve el HEAD a un branch
+
+
+git remote add <alias> <url> 
+
+
+
+
+
+
+
+
+
+
+git push : Pushea(Sube) los objetos nuevos que haya en el repo local hacia el repo "remoto"
+
+git push <alias> <branch> : sube los objetos nuevos locales al repo remoto llamado como <alias> en el branch remoto <branch>
+
+
+git pull
+
+git fetch
+
+
+
+
+VIM
+
+
+
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   archivo1.txt
+#
+
+
+
+
+OBJETOS
+
+
+COMMIT
+    - ID : SHA1
+    - Subject : Descripcion de cambio 
+    - Commiter : Nombre
+    - Author : Nombre
+    - Email : Email
+    - Timestamp : Timestamp
+    - parent_id : id del commit padre
+    - id_tree : 
+
+TREE
+    _ ID : SHA1
+    _ id_blob : 
+
+
+BLOB
+    _ ID : SHA1
+
+TAG
