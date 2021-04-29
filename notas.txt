@@ -25,10 +25,11 @@ git checkout <id_commit> : Mueve el HEAD a un commit
 
 git checkout <nombre_branch> : Mueve el HEAD a un branch
 
+git remote : Nos da un listado de los alias remotos
 
-git remote add <alias> <url> 
+git remote -v  : Nos da un listad de URLs remotas
 
-
+git remote add <alias> <url> : Agrega un nuevo remoto
 
 
 
@@ -40,6 +41,9 @@ git remote add <alias> <url>
 git push : Pushea(Sube) los objetos nuevos que haya en el repo local hacia el repo "remoto"
 
 git push <alias> <branch> : sube los objetos nuevos locales al repo remoto llamado como <alias> en el branch remoto <branch>
+
+git push --set-upstream <alias> <branch> : sube los objetos nuevos locales al repo remoto llamado como <alias> en el branch remoto <branch> dejandola configurada a partir de ahora a ese mismo remoto
+
 
 
 git pull
