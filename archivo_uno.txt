@@ -6,3 +6,6 @@ quinta linea
 primer cambio
 segundo cambio
 tercer cambio
+
+
+Este es el cambio de f2
