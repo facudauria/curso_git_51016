@@ -95,3 +95,13 @@ BLOB
     _ ID : SHA1
 
 TAG
+
+
+
+
+UNIFICACION DE CAMBIOS 
+
+
+    - merge : Avanza el puntero de un branch a un commit adelante
+    - rebase : Cambia el origen de branch
+    - cherry-pick : Copia commits individualmente a otro branch
