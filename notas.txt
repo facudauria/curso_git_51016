@@ -108,3 +108,8 @@ UNIFICACION DE CAMBIOS
 
 
 Git reflog : Es un log de acciones que se guarda por 30 dias
+
+Tags : Es un marcador de commit 
+
+    - Anotados : Si crean objetos 
+    - No Anotados : No crean objetos
