@@ -14,3 +14,5 @@ Este es el cambio de f2
 
 segundo cambio
 tercer cambio
+
+aca hay un bug
